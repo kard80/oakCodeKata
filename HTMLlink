@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <a name = "top"></a> <!--go to top จากข้อ 4 และ 5-->
+
+        <!--ข้อ1-->
+        <a href = "https://www.google.com">Google</a> 
+        
+        <br/><br/>
+
+        <!--ข้อ2-->
+        <a href = "https://www.webtoons.com/th" target  = "_blank">Webtoons</a>
+        <a href = "https://www.gmail.com" target = "_blank">gmail</a>
+        <a href = "https://www.facebook.com" target = "_blank">Facebook</a>
+        <a href = "https://www.pexels.com" target = "_blank">Pexels</a>
+        <a href = "https:www.google.com" target = "_blank">Google</a>
+
+        <br/> <br/>
+
+        <!--ข้อ3 4 และ 5-->
+        
+        <a href = "#bottom">Click to Button</a>  
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <p> space</p>
+        <a href = "#top">click to Top</a>
+        <a name = "bottom"></a>
+    </body>
+</html>
