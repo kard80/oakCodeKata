@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        fieldset {
+            margin-right: 60%;
+        }
+        .customer_info input {
+            width: 60%;
+        }
+        .books input:nth-child(2) {
+            width: 40%;
+            margin-left: 5%;
+        }
+        .books input:last-child{
+            width: 20%;
+        }
+
+        #submit {
+            margin-top: 3px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>A Simple Form</h3>
+    <pre>Form Fundamentals</pre>
+    <fieldset class = "customer_info">
+        <legend>Customer Info</legend>
+        <p>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+        </p>
+        <p>
+            <label>Telephone:</label>
+            <input type="text" placeholder="Pattern: 1-234-567-8910">
+        </p>
+        <p>
+            <label>E-mail address:</label>
+            <input type = "text" placeholder="Enter your e-mail address">
+        </p>
+    </fieldset>
+    <fieldset class = "books">
+        <legend>Books</legend>
+        <input type = "text">
+        <label>Quantity (Maximum 5):</label>
+        <input type = "number" min = "0" max = "5">
+    </fieldset>
+    <input type = "submit" id = "submit">
+    <p> &nbsp;&nbsp;&nbsp;&nbsp; &copy; 2011 Acne United. All rights reserved.</p>
+
+</body>
+
+</html>
