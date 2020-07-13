@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/5ad99e9b9e.js" crossorigin="anonymous"></script>
     <style>
         body {
             margin: 0;
@@ -63,7 +64,17 @@
             height: 80vh;
 
         }
-        #project h2 {
+        #project a {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            line-height: 0;
+        }
+        #project a h2 {
             width: 100%;
             text-align: center;
             font-size: 42px;
@@ -76,10 +87,10 @@
             background-color: #303841;
             text-align: center;
             margin-top: 0;
-            padding: 10px 5px;
+            padding: 18px 5px;
         }
 
-        #contact {
+        #profile-link {
             background-color: #303841;
             display: flex;
             flex-flow: column wrap;
@@ -87,22 +98,27 @@
             justify-content: center;
             height: 70vh;
         }
-        #contact h2 {
+        #profile-link h2 {
             margin-bottom: 0;
-            font-size: 36px;
+            font-size: 48px;
         }
-        #contact :nth-child(2) {
+        #profile-link :nth-child(2) {
             margin-top:0;
             font-size: 14px;
             font-weight: lighter;
         }
-        #contact div {
+        #profile-link div {
             width: 100%;
             display: flex;
             justify-content: center;
         }
         .channel ul li a {
             font-size: 16px;
+        }
+        @media screen and (max-height: 1792px) {
+            #welcome {
+                height: 1792px;
+            }
         }
 
     </style>
@@ -121,22 +137,24 @@
         <p> Learning to be developer</p>
     </section>
     <section id = "project">
+       <a href = "https://kard80.github.io/CodeKata/7HTMLProject1.html" target = "_blank">
         <h2> These are some of my projects</h2>
         <div class = "photo">
             <img src = "https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg">
             <p> Tribute Page</p>
+        </a>
         </div>
     </section>
-    <section id = "contact">
+    <section id = "profile-link">
         <h2>Let's work together...</h2>
         <p>How do you take your coffee?</p>
         <div class = "channel">
             <ul>
-                <li> <a href = "https://www.facebook.com/kardkang?ref=bookmarks" target = "_blank"> Facebook</a></li>
-                <li> <a href = "https://github.com/kard80" target = "_blank">GitHub</a></li>
-                <li> <a href = "#">Twitter</a></li>
-                <li><a href = "mailto: kard.sp2@gmail.com">Send a mail</a></li>
-                <li> <a href = "tel:+6614121998">Call me</a></li>
+                <li> <a href = "https://www.facebook.com/kardkang?ref=bookmarks" target = "_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                <li> <a href = "https://github.com/kard80" target = "_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li> <a href = "#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href = "mailto: kard.sp2@gmail.com"><i class="fas fa-at"></i> Send a mail</a></li>
+                <li> <a href = "tel:+6614121998"><i class="fas fa-mobile-alt"></i> Call me</a></li>
             </ul>
         </div>
     </section>
